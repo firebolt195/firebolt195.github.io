@@ -1,19 +1,45 @@
 <!DOCTYPE html>
 <html>
+
+<head>
+<style>
+
+* {
+  box-sizing: border-box;
+}
+
+  .column {
+  float: left;
+  width: 50%;
+  padding: 5px; 
+  }
+
+  .row::after {
+  content: "";
+  clear: both;
+  display: table; 
+  }
+
+</style>
+</head>
+
+
 <body style="background-color:mediumslateblue;">
 
 <h1><center>Shadel's Ninja Dojo</center></h1>
 <p><center>Welcome to Shadel.ninja!</center></p>
 <div class="row">
     <div class="column">
-      <img src="ninja.png" width="200" height="200" style="width:100%">
-      <!-- <img src="ninja.png" width="756" height="1024" style="width:100%"> -->
+      <img src="ninja.png" width="756" height="1024" style="width:100%">
     </div>
     <div class="column">
-      <img src="dragon.png" width="200" height="200" style="width:100%">
-      <!-- <img src="dragon.png" width="800" height="800" style="width:100%"> -->
+      <img src="dragon.png" width="800" height="800" style="width:100%">
     </div>
 </div>
 
+
+
+<h2><center>Table of Contents</center></h2>
 </body>
+
 </html>
